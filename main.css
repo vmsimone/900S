@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'DIN-Alternate-Bold';
+  src: url('./fonts/DIN-Alternate-Bold.ttf'); /* IE9 Compat Modes */
+  src: url('./fonts/DIN-Alternate-Bold.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/DIN-Alternate-Bold.ttf') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/DIN-Alternate-Bold.ttf') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/DIN-Alternate-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/DIN-Alternate-Bold.ttf') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'DIN-Condensed-Bold';
+  src: url('./fonts/DIN-Condensed-Bold.ttf'); /* IE9 Compat Modes */
+  src: url('./fonts/DIN-Condensed-Bold.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/DIN-Condensed-Bold.ttf') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/DIN-Condensed-Bold.ttf') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/DIN-Condensed-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/DIN-Condensed-Bold.ttf') format('svg'); /* Legacy iOS */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: black;
+}
+
+nav ul {
+  padding: 0;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  padding: 0 5px 0 5px;
+}
+
+nav button {
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  font-family: 'DIN-Condensed-Bold';
+  color: white;
+}
+
+button:hover,
+button:focus,
+a:hover,
+a:focus {
+  color: lime;
+  cursor: pointer;
+}
+
+nav img {
+  width: 100px;
+  margin: 0 auto;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  z-index: -1;
+}
+
+body {
+  background: black;
+  color: white;
+  text-align: left;
+  font-family: 'DIN-Alternate-Bold';
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 80%;
+}
+
+p {
+  font-family: 'DIN-Condensed-Bold';
+}
+
+main ul {
+  padding: 0;
+}
+
+main li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: left;
+}
+
+footer img {
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 735px) {
+  main {
+    width: 60%;
+  }
+}
