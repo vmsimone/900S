@@ -20,39 +20,22 @@ const HOME_PAGE = `
 
 const ABOUT_PAGE = `
     <section class="about">
-        <h2>About</h2>
         <p>
-            This space was created as a platform to showcase talented emerging creatives 
-            united under one banner.  They will collectively benefit from an omni-channel 
-            sales and marketing strategy. In turn the space provides brands with a better 
-            opportunity to sell their products and increase exposure
+            THIS SPACE WAS CREATED AS A PLATFORM TO SHOWCASE TALENTED EMERGING CREATIVES 
+            UNITED UNDER ONE BANNER.  THEY WILL COLLECTIVELY BENEFIT FROM AN OMNI-CHANNEL 
+            SALES AND MARKETING STRATEGY. IN TURN THE SPACE PROVIDES BRANDS WITH A BETTER 
+            OPPORTUNITY TO SELL THEIR PRODUCTS AND INCREASE EXPOSURE
         </p>
-        <p>
-            Profit financially without compromising artistic integrity
-            Improve Productivity and increase efficiency
-            Optimize synergy of art, design and commerce
-            Nurture Innovation
-            Make creativity the ideology
-            Utilize worldwide travel to create greater accessibility
-            Create an interconnected network for expansive growth
+        <!-- <p>
+            PROFIT FINANCIALLY WITHOUT COMPROMISING ARTISTIC INTEGRITY
+            IMPROVE PRODUCTIVITY AND INCREASE EFFICIENCY
+            OPTIMIZE SYNERGY OF ART, DESIGN AND COMMERCE
+            NURTURE INNOVATION
+            MAKE CREATIVITY THE IDEOLOGY
+            UTILIZE WORLDWIDE TRAVEL TO CREATE GREATER ACCESSIBILITY
+            CREATE AN INTERCONNECTED NETWORK FOR EXPANSIVE GROWTH -->
         </p>
     </section>
-`;
-
-const CONTACT_PAGE = `
-<section class="contact">
-    <h2>Contact</h2>
-    <ul>
-        <li>900[ S ]</li>
-        <li>Kyle Simone</li>
-        <li>“Director”</li>
-    </ul>
-    <ul>     
-        <li><a href="tel:+1 213-841-5945">+1 213.841.5945</a></li>
-        <li>900-S.com</li>
-        <li>@900S_fanclub</li>
-    </ul>
-</section>
 `;
 
 function listen(anchorID, page) {
@@ -64,7 +47,6 @@ function listen(anchorID, page) {
 function readyNavButtons() {
     listen('#home', HOME_PAGE);
     listen('#about', ABOUT_PAGE);
-    listen('#contact', CONTACT_PAGE);
 }
 
 $(readyNavButtons);

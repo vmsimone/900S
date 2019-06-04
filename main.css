@@ -86,12 +86,19 @@ main {
   margin: 0 auto;
   margin-top: 200px;
   width: 90%;
-  height: 150px;
   border: 2px solid rgb(201, 201, 201);
+  padding: 0;
+  background: blue;
 }
 
-p {
+section {
+  background: red;
+  margin: 0 auto;
+}
+
+p, li {
   font-family: 'DIN-Condensed-Bold';
+  color: white;
 }
 
 main ul {
@@ -105,7 +112,10 @@ main li {
 a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+}
+
+.home a {
+  font-size: 24px;
 }
 
 footer {
