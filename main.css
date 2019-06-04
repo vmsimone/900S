@@ -152,4 +152,8 @@ footer ul {
   nav img {
     max-width: 150px;
   }
+
+  .about {
+    font-size: 18px;
+  }
 }
